@@ -1141,7 +1141,8 @@ function Frame73() {
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
       <SolarPhoneOutline />
       <div className="[word-break:break-word] flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#5d5d5d] text-[16px] whitespace-nowrap">
-        <p className="leading-[normal]">+81-3-6876-0591 / +81-50-1706-3337</p>
+        <p className="leading-[normal]">Off No : +81-03-6698-7755 / 
+HR :+81-(0)50-1706-3338</p>
       </div>
     </div>
   );
@@ -1594,7 +1595,7 @@ function Frame99() {
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
       <SolarPhoneOutline2 />
       <div className="[word-break:break-word] flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#5d5d5d] text-[16px] whitespace-nowrap">
-        <p className="leading-[normal]">+65 6123 4567</p>
+        <p className="leading-[normal]">+65 81198492</p>
       </div>
     </div>
   );
