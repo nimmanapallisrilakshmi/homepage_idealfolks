@@ -1405,21 +1405,13 @@ function MynauiMail1() {
 }
 
 function Frame91() {
-  return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
-      <MynauiMail1 />
-      <a className="[word-break:break-word] flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#5d5d5d] text-[16px] whitespace-nowrap" href="mailto:india@idealfolks.com" target="_blank">
-        <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">india@idealfolks.com</p>
-      </a>
-    </div>
-  );
+  return null;
 }
 
 function Frame89() {
   return (
     <div className="content-stretch flex gap-[48px] items-center relative shrink-0 w-full">
       <Frame90 />
-      <Frame91 />
     </div>
   );
 }
@@ -1621,21 +1613,13 @@ function MynauiMail2() {
 }
 
 function Frame100() {
-  return (
-    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
-      <MynauiMail2 />
-      <a className="[word-break:break-word] flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#5d5d5d] text-[16px] whitespace-nowrap" href="mailto:singapore@idealfolks.com" target="_blank">
-        <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">singapore@idealfolks.com</p>
-      </a>
-    </div>
-  );
+  return null;
 }
 
 function Frame98() {
   return (
     <div className="content-stretch flex gap-[48px] items-center relative shrink-0 w-full">
       <Frame99 />
-      <Frame100 />
     </div>
   );
 }
