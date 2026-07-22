@@ -823,25 +823,13 @@ function Frame49() {
 }
 
 function Frame50() {
-  return (
-    <div className="bg-[#dbe5f7] relative rounded-[16px] shrink-0 w-full">
-      <div className="overflow-clip rounded-[inherit] size-full">
-        <div className="content-stretch flex flex-col gap-[12px] items-start px-[16px] py-[26px] relative size-full">
-          <Frame49 />
-          <p className="[word-break:break-word] font-['Inter:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#4281ff] text-[16px] w-full">有料職業紹介事業 : 13-ユ-310059</p>
-          <p className="[word-break:break-word] font-['Inter:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#4281ff] text-[16px] w-full">労働者派遣事業 : 派 13-314879</p>
-        </div>
-      </div>
-      <div aria-hidden className="absolute border border-[#e7e7e7] border-solid inset-0 pointer-events-none rounded-[16px] shadow-[0px_0px_12px_1px_rgba(255,255,255,0.2)]" />
-    </div>
-  );
+  return null;
 }
 
 function Frame51() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-center relative shrink-0 w-[286px]">
       <Frame48 />
-      <Frame50 />
       <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-[min-content]">Ideal Folks LLC is a recruitment agency licensed by the Ministry of Health, Labour and Welfare (Japan).</p>
     </div>
   );
@@ -893,10 +881,20 @@ function Frame53() {
 function Frame54() {
   return (
     <div className="content-stretch flex flex-col gap-[16px] items-center relative shrink-0 w-full">
+      <p className="[word-break:break-word] font-['Inter:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] text-center w-[1160px]">
+
+        アイディアルフォルクス合同会社は厚生労働省のライセンス（13-ユ-310059 および 派 13-314879）を受けた人材紹介会社です。
+
+      </p>
+
       <div className="flex items-center justify-center relative shrink-0">
+
         <div className="flex-none rotate-180">
+
           <div className="bg-gradient-to-r from-[#039] h-[2px] relative to-[#039] to-[99.519%] via-1/2 via-white w-[1160px]" />
+
         </div>
+
       </div>
       <Frame53 />
     </div>
