@@ -1,0 +1,112 @@
+/* Inria Serif */
+@font-face {
+  font-family: 'Inria Serif:Regular';
+  src: url('https://fonts.gstatic.com/s/inriaserif/v18/fC1lPYxPY3rXxEndZJAzN0Ss.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inria Serif:Bold';
+  src: url('https://fonts.gstatic.com/s/inriaserif/v18/fC14PYxPY3rXxEndZJAzN3wQUgjF.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inria Serif:Italic';
+  src: url('https://fonts.gstatic.com/s/inriaserif/v18/fC1nPYxPY3rXxEndZJAzN3Sudyg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Inria Serif:Bold Italic';
+  src: url('https://fonts.gstatic.com/s/inriaserif/v18/fC16PYxPY3rXxEndZJAzN3SuT5TAjlg.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Inria Serif:Bold_Italic';
+  src: url('https://fonts.gstatic.com/s/inriaserif/v18/fC16PYxPY3rXxEndZJAzN3SuT5TAjlg.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Inter */
+@font-face {
+  font-family: 'Inter:Regular';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter:Medium';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter:Semi Bold';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter:Semi_Bold';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter:Bold';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter:Semi Bold Italic';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Inter:Semi_Bold_Italic';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Ma Shan Zheng */
+@font-face {
+  font-family: 'Ma Shan Zheng:Regular';
+  src: url('https://fonts.gstatic.com/s/mashanzheng/v17/NaPecZTRCLxvwo41b4gvzkXaRMQ.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Ancizar Serif (fallback to Inria Serif) */
+@font-face {
+  font-family: 'Ancizar Serif:Bold Italic';
+  src: url('https://fonts.gstatic.com/s/inriaserif/v18/fC16PYxPY3rXxEndZJAzN3SuT5TAjlg.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Noto Sans JP fallback */
+@font-face {
+  font-family: 'Noto Sans JP:Regular';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Sans JP:Bold';
+  src: url('https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Georgia italic fallback */
+@font-face {
+  font-family: 'Georgia:Italic';
+  src: local('Georgia Italic'), local('Georgia');
+  font-style: italic;
+}
