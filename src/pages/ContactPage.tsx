@@ -1228,6 +1228,59 @@ function Frame78() {
   );
 }
 
+function TrainIcon() {
+  return (
+    <div className="relative shrink-0 size-[16px]" data-name="train-icon">
+      <svg className="absolute block inset-0 size-full" fill="none" viewBox="0 0 24 24" stroke="#5D5D5D" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="4" y="3" width="16" height="16" rx="2" />
+        <path d="M4 11h16" />
+        <path d="M12 3v8" />
+        <path d="m8 19-2 3" />
+        <path d="m16 19 2 3" />
+        <circle cx="8" cy="15" r="1" fill="#5D5D5D" />
+        <circle cx="16" cy="15" r="1" fill="#5D5D5D" />
+      </svg>
+    </div>
+  );
+}
+
+function OfficeAccessJapan() {
+  return (
+    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full pt-[16px] border-t border-[#f0f0f0]">
+      {/* Heading */}
+      <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+        <TrainIcon />
+        <div className="[word-break:break-word] flex flex-col font-['Inter:Semi_Bold',sans-serif] font-semibold justify-center leading-[0] not-italic relative shrink-0 text-[#252525] text-[16px] whitespace-nowrap">
+          <p className="leading-[normal]">Office Access</p>
+        </div>
+      </div>
+      
+      {/* Access Details */}
+      <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full pl-[24px]">
+        {/* Namboku Line */}
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full">
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic text-[#4f4f4f] text-[14px]">
+            Namboku Line
+          </p>
+          <p className="[word-break:break-word] font-['Noto_Sans_JP:Regular','Inter:Regular',sans-serif] font-normal leading-[normal] not-italic text-[#5d5d5d] text-[14px]">
+            南北線 「麻布十番」駅（6番出口）徒歩3分 | "Azabu-juban" Station (Exit 6) – 3 minutes walk
+          </p>
+        </div>
+
+        {/* Toei Oedo Line */}
+        <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full">
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic text-[#4f4f4f] text-[14px]">
+            Toei Oedo Line
+          </p>
+          <p className="[word-break:break-word] font-['Noto_Sans_JP:Regular','Inter:Regular',sans-serif] font-normal leading-[normal] not-italic text-[#5d5d5d] text-[14px]">
+            都営大江戸線 「麻布十番」駅（6番出口）徒歩3分 | "Azabu-juban" Station (Exit 6) – 3 minutes walk
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function JapanOfc() {
   return (
     <div className="bg-white drop-shadow-[0px_0px_6px_rgba(201,201,201,0.25)] relative rounded-[16px] shrink-0 w-full" data-name="japan ofc">
@@ -1235,6 +1288,7 @@ function JapanOfc() {
       <div className="content-stretch flex flex-col gap-[16px] items-start p-[24px] relative size-full">
         <Frame74 />
         <Frame78 />
+        <OfficeAccessJapan />
       </div>
     </div>
   );
