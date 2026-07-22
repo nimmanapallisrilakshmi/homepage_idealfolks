@@ -1571,7 +1571,7 @@ function Frame49() {
     <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full">
       <BasilLocationOutline2 />
       <div className="[word-break:break-word] flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#5d5d5d] text-[16px] whitespace-nowrap">
-        <p className="leading-[normal]">1 Marina Bay Financial Centre, Level 20, Singapore 018985</p>
+        <p className="leading-[normal]">1792, MBFC Tower 3, 12 Marina Blvd, Singapore 018982</p>
       </div>
     </div>
   );
@@ -1648,7 +1648,7 @@ function MageDirectionUpRight2Fill2() {
 function Frame101() {
   return (
     <a
-      href="https://www.google.com/maps/search/1+Marina+Bay+Financial+Centre,+Level+20,+Singapore+018985/@1.2811363,103.8506315,17z/data=!3m1!4b1?authuser=0&entry=ttu&g_ep=EgoyMDI2MDcxMy4wIKXMDSoASAFQAw%3D%3D"
+      href="https://www.bing.com/search?pglt=299&q=%231792%2C+MBFC+Tower+3%2C+12+Marina+Blvd%2C+Singapore+018982&cvid=448446aef79c40ffb961d4364b4930f2&gs_lcrp=EgRlZGdlKgYIABBFGDsyBggAEEUYOzIHCAEQ6wcYQNIBBzMwN2owajeoAgCwAgA&FORM=ANNTA1&adppc=EDGEINJP&PC=HCTS"
       target="_blank"
       rel="noopener noreferrer"
       className="bg-[#039] relative rounded-[60px] shrink-0 size-[58px] block cursor-pointer transition-all duration-250 ease-in-out hover:-translate-y-[5px] hover:scale-[1.04] hover:shadow-[0px_8px_20px_rgba(0,51,153,0.4)]"
