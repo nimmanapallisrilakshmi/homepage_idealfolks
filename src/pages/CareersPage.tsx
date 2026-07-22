@@ -40,7 +40,7 @@ function Frame52() {
   return (
     <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[24px] items-center justify-center left-[223px] top-[calc(50%-14px)] w-[875px]">
       <p className="[word-break:break-word] font-['Inria_Serif:Bold',sans-serif] leading-[0] min-w-full not-italic relative shrink-0 text-[64px] text-center text-white w-[min-content]">
-        <span className="leading-[normal]">{`Shape the Future of Technolog `}</span>
+        <span className="leading-[normal]">{`Shape the Future of Technology `}</span>
         <span className="leading-[normal] text-[#fb0]">With Us.</span>
       </p>
       <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[20px] text-center text-white w-[835px]">Join a global team delivering innovative solutions across Japan, Singapore, and India. Build meaningful products, grow your career, and make an impact.</p>
