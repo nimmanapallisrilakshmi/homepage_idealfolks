@@ -618,13 +618,13 @@ function Frame22() {
 
 function RiFacebookFill() {
   return (
-    <div className="relative shrink-0 size-[24px]" data-name="ri:facebook-fill">
+    <a href="https://www.facebook.com/idealfolks" target="_blank" rel="noopener noreferrer" className="relative shrink-0 size-[24px] block cursor-pointer" data-name="ri:facebook-fill">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="ri:facebook-fill">
           <path d={svgPaths.p32db6580} fill="var(--fill-0, #003399)" id="Vector" />
         </g>
       </svg>
-    </div>
+    </a>
   );
 }
 
@@ -638,13 +638,13 @@ function Frame40() {
 
 function RiInstagramFill() {
   return (
-    <div className="relative shrink-0 size-[24px]" data-name="ri:instagram-fill">
+    <a href="https://www.instagram.com/idealfolks" target="_blank" rel="noopener noreferrer" className="relative shrink-0 size-[24px] block cursor-pointer" data-name="ri:instagram-fill">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="ri:instagram-fill">
           <path d={svgPaths.p25a7dc00} fill="var(--fill-0, #003399)" id="Vector" />
         </g>
       </svg>
-    </div>
+    </a>
   );
 }
 
@@ -658,7 +658,7 @@ function Frame41() {
 
 function GardenTwitterFill() {
   return (
-    <div className="relative shrink-0 size-[16px]" data-name="garden:twitter-fill-16">
+    <a href="https://x.com/IdealFolks" target="_blank" rel="noopener noreferrer" className="relative shrink-0 size-[16px] block cursor-pointer" data-name="garden:twitter-fill-16">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
         <g clipPath="url(#clip0_1_1204)" id="garden:twitter-fill-16">
           <path d={svgPaths.p1c115600} fill="var(--fill-0, #003399)" id="Vector" />
@@ -669,7 +669,7 @@ function GardenTwitterFill() {
           </clipPath>
         </defs>
       </svg>
-    </div>
+    </a>
   );
 }
 
@@ -683,13 +683,13 @@ function Frame42() {
 
 function RiLinkedinFill() {
   return (
-    <div className="relative shrink-0 size-[24px]" data-name="ri:linkedin-fill">
+    <a href="https://www.linkedin.com/company/ideal-folks-llc/?trk=company_logo" target="_blank" rel="noopener noreferrer" className="relative shrink-0 size-[24px] block cursor-pointer" data-name="ri:linkedin-fill">
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
         <g id="ri:linkedin-fill">
           <path d={svgPaths.p2afab500} fill="var(--fill-0, #003399)" id="Vector" />
         </g>
       </svg>
-    </div>
+    </a>
   );
 }
 
