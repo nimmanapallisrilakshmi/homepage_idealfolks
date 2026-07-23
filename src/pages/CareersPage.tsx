@@ -242,11 +242,11 @@ function Frame38() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-[138px]">
       <Frame24 />
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-full">Why us</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-full">Our journey</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-full">Services</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-full">About</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-full">Contact</p>
+            <p data-name="Home" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-full">Home</p>
+      <p data-name="About Us" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-full">About Us</p>
+      <p data-name="Services" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-full">Services</p>
+      <p data-name="Careers" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-full">Careers</p>
+      <p data-name="Contact" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-full">Contact</p>
     </div>
   );
 }
