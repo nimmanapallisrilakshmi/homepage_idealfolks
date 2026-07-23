@@ -2043,7 +2043,7 @@ function Frame102() {
 
 function Faq() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[42px] items-center left-[80px] top-[2608px] w-[1160px]" data-name="FAQ">
+    <div className="absolute content-stretch flex flex-col gap-[42px] items-center left-[80px] top-[2738px] w-[1160px]" data-name="FAQ">
       <Frame51 />
       <Frame102 />
     </div>
@@ -2160,7 +2160,7 @@ function TopNavBar() {
 
 function TapNavBar() {
   return (
-    <div className="absolute bottom-0 h-[3541px] left-0 pointer-events-none top-0">
+    <div className="absolute bottom-0 h-[3671px] left-0 pointer-events-none top-0">
       <div className="h-[87px] pointer-events-auto sticky top-0 w-[1320px]" data-name="tap nav bar">
         <TopNavBar />
       </div>
