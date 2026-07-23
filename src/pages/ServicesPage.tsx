@@ -618,50 +618,60 @@ function Frame22() {
 
 function RiFacebookFill() {
   return (
-    <a href="https://www.facebook.com/idealfolks" target="_blank" rel="noopener noreferrer" className="relative shrink-0 size-[24px] block cursor-pointer" data-name="ri:facebook-fill">
-      <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
+    <div className="relative shrink-0 size-[24px] text-[#003399] group-hover:text-white transition-colors duration-200 ease-in-out" data-name="ri:facebook-fill">
+      <svg className="size-[24px] block fill-[#003399] group-hover:fill-white transition-all duration-250 ease-in-out" viewBox="0 0 24 24">
         <g id="ri:facebook-fill">
-          <path d={svgPaths.p32db6580} fill="var(--fill-0, #003399)" id="Vector" />
+          <path d={svgPaths.p32db6580} fill="currentColor" id="Vector" />
         </g>
       </svg>
-    </a>
+    </div>
   );
 }
 
 function Frame40() {
   return (
-    <div className="bg-white content-stretch flex items-start p-[9px] relative rounded-[21px] shrink-0 size-[42px]">
+    <a
+      href="https://www.facebook.com/idealfolks"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-white hover:bg-[#003399] transition-all duration-200 ease-in-out content-stretch flex items-start p-[9px] relative rounded-[21px] shrink-0 size-[42px] group cursor-pointer"
+    >
       <RiFacebookFill />
-    </div>
+    </a>
   );
 }
 
 function RiInstagramFill() {
   return (
-    <a href="https://www.instagram.com/idealfolks" target="_blank" rel="noopener noreferrer" className="relative shrink-0 size-[24px] block cursor-pointer" data-name="ri:instagram-fill">
-      <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
+    <div className="relative shrink-0 size-[24px] text-[#003399] group-hover:text-white transition-colors duration-200 ease-in-out" data-name="ri:instagram-fill">
+      <svg className="size-[24px] block fill-[#003399] group-hover:fill-white transition-all duration-250 ease-in-out" viewBox="0 0 24 24">
         <g id="ri:instagram-fill">
-          <path d={svgPaths.p25a7dc00} fill="var(--fill-0, #003399)" id="Vector" />
+          <path d={svgPaths.p25a7dc00} fill="currentColor" id="Vector" />
         </g>
       </svg>
-    </a>
+    </div>
   );
 }
 
 function Frame41() {
   return (
-    <div className="bg-white content-stretch flex items-start p-[9px] relative rounded-[21px] shrink-0 size-[42px]">
+    <a
+      href="https://www.instagram.com/idealfolks"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-white hover:bg-[#003399] transition-all duration-200 ease-in-out content-stretch flex items-start p-[9px] relative rounded-[21px] shrink-0 size-[42px] group cursor-pointer"
+    >
       <RiInstagramFill />
-    </div>
+    </a>
   );
 }
 
 function GardenTwitterFill() {
   return (
-    <a href="https://x.com/IdealFolks" target="_blank" rel="noopener noreferrer" className="relative shrink-0 size-[16px] block cursor-pointer" data-name="garden:twitter-fill-16">
-      <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
+    <div className="relative shrink-0 size-[16px] text-[#003399] group-hover:text-white transition-colors duration-200 ease-in-out" data-name="garden:twitter-fill-16">
+      <svg className="size-[16px] block fill-[#003399] group-hover:fill-white transition-all duration-250 ease-in-out" viewBox="0 0 16 16">
         <g clipPath="url(#clip0_1_1204)" id="garden:twitter-fill-16">
-          <path d={svgPaths.p1c115600} fill="var(--fill-0, #003399)" id="Vector" />
+          <path d={svgPaths.p1c115600} fill="currentColor" id="Vector" />
         </g>
         <defs>
           <clipPath id="clip0_1_1204">
@@ -669,35 +679,45 @@ function GardenTwitterFill() {
           </clipPath>
         </defs>
       </svg>
-    </a>
+    </div>
   );
 }
 
 function Frame42() {
   return (
-    <div className="bg-white content-stretch flex items-center justify-center p-[9px] relative rounded-[21px] shrink-0 size-[42px]">
+    <a
+      href="https://x.com/IdealFolks"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-white hover:bg-[#003399] transition-all duration-200 ease-in-out content-stretch flex items-center justify-center p-[9px] relative rounded-[21px] shrink-0 size-[42px] group cursor-pointer"
+    >
       <GardenTwitterFill />
-    </div>
+    </a>
   );
 }
 
 function RiLinkedinFill() {
   return (
-    <a href="https://www.linkedin.com/company/ideal-folks-llc/?trk=company_logo" target="_blank" rel="noopener noreferrer" className="relative shrink-0 size-[24px] block cursor-pointer" data-name="ri:linkedin-fill">
-      <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24 24">
+    <div className="relative shrink-0 size-[24px] text-[#003399] group-hover:text-white transition-colors duration-200 ease-in-out" data-name="ri:linkedin-fill">
+      <svg className="size-[24px] block fill-[#003399] group-hover:fill-white transition-all duration-250 ease-in-out" viewBox="0 0 24 24">
         <g id="ri:linkedin-fill">
-          <path d={svgPaths.p2afab500} fill="var(--fill-0, #003399)" id="Vector" />
+          <path d={svgPaths.p2afab500} fill="currentColor" id="Vector" />
         </g>
       </svg>
-    </a>
+    </div>
   );
 }
 
 function Frame43() {
   return (
-    <div className="bg-white content-stretch flex items-center justify-center p-[9px] relative rounded-[21px] shrink-0 size-[42px]">
+    <a
+      href="https://www.linkedin.com/company/ideal-folks-llc/?trk=company_logo"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-white hover:bg-[#003399] transition-all duration-200 ease-in-out content-stretch flex items-center justify-center p-[9px] relative rounded-[21px] shrink-0 size-[42px] group cursor-pointer"
+    >
       <RiLinkedinFill />
-    </div>
+    </a>
   );
 }
 
