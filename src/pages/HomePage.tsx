@@ -740,7 +740,7 @@ function Frame60() {
 
 function WhyIdeolfolks() {
   return (
-    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[42px] items-center left-1/2 top-[2398px] w-[1160px]" data-name="why ideolfolks">
+    <div className="-translate-x-1/2 absolute content-stretch flex flex-col gap-[42px] items-center left-1/2 top-[3705px] w-[1160px]" data-name="why ideolfolks">
       <Frame29 />
       <Frame51 />
       <Frame60 />
@@ -1134,7 +1134,7 @@ function Frame78() {
 
 function ChooseIdealfolks() {
   return (
-    <div className="-translate-x-1/2 absolute bg-[#eef4ff] content-stretch drop-shadow-[0px_2px_6px_rgba(156,156,156,0.15)] flex flex-col gap-[42px] items-center left-1/2 py-[48px] top-[3132px] w-[1320px]" data-name="choose idealfolks">
+    <div className="-translate-x-1/2 absolute bg-[#eef4ff] content-stretch drop-shadow-[0px_2px_6px_rgba(156,156,156,0.15)] flex flex-col gap-[42px] items-center left-1/2 py-[48px] top-[4439px] w-[1320px]" data-name="choose idealfolks">
       <Frame79 />
       <Frame78 />
     </div>
@@ -1623,7 +1623,7 @@ function Frame94() {
 
 function Journey() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[42px] items-center left-[80px] top-[3978px] w-[1160px]" data-name="journey">
+    <div className="absolute content-stretch flex flex-col gap-[42px] items-center left-[80px] top-[5285px] w-[1160px]" data-name="journey">
       <Frame31 />
       <Frame94 />
     </div>
@@ -2088,7 +2088,7 @@ function MdiArrowUp6() {
 
 function Services() {
   return (
-    <div className="absolute content-stretch flex flex-col gap-[42px] items-center left-[80px] top-[4699px] w-[1160px]" data-name="services">
+    <div className="absolute content-stretch flex flex-col gap-[42px] items-center left-[80px] top-[2398px] w-[1160px]" data-name="services">
       <Frame33 />
       <Frame118 />
       <div className="content-stretch flex gap-[8px] h-[42px] items-center px-[24px] py-[12px] relative rounded-[16px] shrink-0 bg-white hover:bg-[#039] text-[#039] hover:text-white transition-all duration-300 ease-in-out cursor-pointer select-none group" data-name="CTA 2">
@@ -2914,10 +2914,10 @@ export default function HomePage() {
       </div>
       <Video />
       <BuildOnStrents />
+      <Services />
       <WhyIdeolfolks />
       <ChooseIdealfolks />
       <Journey />
-      <Services />
       <Partners />
       <BottomInfo />
       <TapNavBar />
