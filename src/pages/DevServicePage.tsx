@@ -41,7 +41,7 @@ function Frame() {
 function Frame92() {
   return (
     <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[24px] items-start justify-center left-[80px] top-1/2">
-      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[#6297f8] text-[20px] w-[835px]">Service- End-to-End Dev</p>
+      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[#6297f8] text-[20px] w-[835px]">Service- End-to-End Development</p>
       <div className="[word-break:break-word] font-['Inria_Serif:Bold',sans-serif] leading-[0] not-italic relative shrink-0 text-[64px] text-white whitespace-nowrap">
         <p className="leading-[normal] mb-0">Outcomes you can measure.</p>
         <p className="leading-[normal] text-[#fb0]">Teams you can trust.</p>
@@ -8815,7 +8815,7 @@ function Frame152() {
           <div data-name="AI Services" className="px-[20px] py-[10px] hover:bg-[#f6f9ff] hover:text-[#039] text-[#252525] font-['Inter:Semi_Bold',sans-serif] font-semibold text-[16px] transition-colors duration-200">AI Services</div>
           <div data-name="Infrastructure Services" className="px-[20px] py-[10px] hover:bg-[#f6f9ff] hover:text-[#039] text-[#252525] font-['Inter:Semi_Bold',sans-serif] font-semibold text-[16px] transition-colors duration-200">Infrastructure Services</div>
           <div data-name="BOT Model" className="px-[20px] py-[10px] hover:bg-[#f6f9ff] hover:text-[#039] text-[#252525] font-['Inter:Semi_Bold',sans-serif] font-semibold text-[16px] transition-colors duration-200">BOT Model</div>
-          <div data-name="Development Services" className="px-[20px] py-[10px] hover:bg-[#f6f9ff] hover:text-[#039] text-[#252525] font-['Inter:Semi_Bold',sans-serif] font-semibold text-[16px] transition-colors duration-200">Development Services</div>
+          <div data-name="End-to-End Development" className="px-[20px] py-[10px] hover:bg-[#f6f9ff] hover:text-[#039] text-[#252525] font-['Inter:Semi_Bold',sans-serif] font-semibold text-[16px] transition-colors duration-200">End-to-End Development</div>
           <div data-name="Staff Augmentation" className="px-[20px] py-[10px] hover:bg-[#f6f9ff] hover:text-[#039] text-[#252525] font-['Inter:Semi_Bold',sans-serif] font-semibold text-[16px] transition-colors duration-200">Staff Augmentation</div>
           <div data-name="EOR Services" className="px-[20px] py-[10px] hover:bg-[#f6f9ff] hover:text-[#039] text-[#252525] font-['Inter:Semi_Bold',sans-serif] font-semibold text-[16px] transition-colors duration-200">EOR Services</div>
         </div>
