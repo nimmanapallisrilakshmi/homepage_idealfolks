@@ -33,7 +33,7 @@ const PAGE_HEIGHTS: Record<Page, number> = {
   "infra-service": 6100,
   "bot-service": 7249,
   careers: 4620,
-  contact: 3541,
+  contact: 3671,
   "dev-service": 6100,
   "eor-service": 6100,
   "staff-augmentation": 6100,
