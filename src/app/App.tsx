@@ -42,6 +42,7 @@ const PAGE_HEIGHTS: Record<Page, number> = {
 const NAV_MAP: Record<string, Page> = {
   Home: "home",
   "About us": "about",
+  "About Us": "about",
   About: "about",
   Services: "services",
   "service hover": "services",
