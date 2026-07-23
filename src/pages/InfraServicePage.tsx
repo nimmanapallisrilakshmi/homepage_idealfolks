@@ -45,7 +45,7 @@ function Frame() {
 function Frame92() {
   return (
     <div className="-translate-y-1/2 absolute content-stretch flex flex-col gap-[24px] items-start justify-center left-[80px] top-1/2">
-      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[#6297f8] text-[20px] w-[835px]">Service-02 · Infrastructure services</p>
+      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[#6297f8] text-[20px] w-[835px]">Service- Infrastructure services</p>
       <div className="[word-break:break-word] font-['Inria_Serif:Bold',sans-serif] leading-[0] not-italic relative shrink-0 text-[64px] text-white whitespace-nowrap">
         <p className="leading-[normal] mb-0">Cloud and data center</p>
         <p className="leading-[normal] text-[#fb0]">capability for the AI era.</p>
