@@ -360,12 +360,12 @@ function Frame91() {
   return (
     <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0">
       <Frame34 />
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-[min-content]">AI Services</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] whitespace-nowrap">Build-Operate-Transfer</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] whitespace-nowrap">End-to-End Development</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-[min-content]">Infrastructure Services</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-[min-content]">Staff Augmentation</p>
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-[min-content]">EOR Services</p>
+            <p data-name="AI Services" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-[min-content]">AI Services</p>
+      <p data-name="Build-Operate-Transfer" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] whitespace-nowrap">Build-Operate-Transfer</p>
+      <p data-name="End-to-End Development" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] whitespace-nowrap">End-to-End Development</p>
+      <p data-name="Infrastructure Services" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-[min-content]">Infrastructure Services</p>
+      <p data-name="Staff Augmentation" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-[min-content]">Staff Augmentation</p>
+      <p data-name="EOR Services" className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] hover:text-white transition-colors duration-200 cursor-pointer text-[16px] w-[min-content]">EOR Services</p>
     </div>
   );
 }
