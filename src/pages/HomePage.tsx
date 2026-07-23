@@ -2603,7 +2603,7 @@ function Frame148() {
 function Frame153() {
   return (
     <div className="content-stretch flex flex-col gap-[2px] items-start justify-center relative shrink-0 w-full">
-      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[24px] text-center text-white whitespace-nowrap">Compliance</p>
+      <p className="[word-break:break-word] font-['Inter:Semi_Bold',sans-serif] font-semibold leading-[normal] not-italic relative shrink-0 text-[24px] text-left text-white whitespace-nowrap">Compliance</p>
       <div className="bg-gradient-to-r from-[#039] h-[2px] relative shrink-0 to-[#039] to-[99.519%] via-1/2 via-white w-[60px]" />
     </div>
   );
@@ -2611,7 +2611,7 @@ function Frame153() {
 
 function Frame152() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-[239px]">
+    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full">
       <Frame153 />
       <p className="[word-break:break-word] font-['Inter:Regular','Noto_Sans_JP:Regular',sans-serif] font-normal leading-[normal] not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-full">アイディアルフォルクス合同会社</p>
     </div>
@@ -2655,21 +2655,17 @@ function Frame154() {
 
 function Frame151() {
   return (
-    <div className="content-stretch flex flex-col gap-[24px] items-center relative shrink-0 w-[286px]">
+    <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-[300px]">
       <Frame152 />
-      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[normal] min-w-full not-italic relative shrink-0 text-[#b0b0b0] text-[16px] w-[min-content]">Ideal Folks LLC is a recruitment agency licensed by the Ministry of Health, Labour and Welfare (Japan).</p>
+      <p className="[word-break:break-word] font-['Inter:Regular',sans-serif] font-normal leading-[1.6] not-italic relative shrink-0 text-[#b0b0b0] text-[15px] w-full">Ideal Folks LLC is a recruitment agency licensed by the Ministry of Health, Labour and Welfare (Japan).</p>
     </div>
   );
 }
 
 function Frame150() {
   return (
-    <div className="content-stretch flex gap-[32px] items-center relative shrink-0">
-      <div className="flex h-[266px] items-center justify-center relative shrink-0 w-[2px]">
-        <div className="flex-none rotate-90">
-          <div className="bg-gradient-to-r from-[#039] h-[2px] relative to-[#039] to-[99.519%] via-1/2 via-white w-[266px]" />
-        </div>
-      </div>
+    <div className="content-stretch flex gap-[32px] items-stretch relative shrink-0">
+      <div className="w-[2px] bg-gradient-to-b from-[#039] via-white to-[#039] shrink-0 self-stretch" />
       <Frame151 />
     </div>
   );
@@ -2679,8 +2675,10 @@ function Frame139() {
   return (
     <div className="content-stretch flex items-start justify-between relative shrink-0 w-[1160px]">
       <Frame140 />
-      <Frame146 />
-      <Frame148 />
+      <div className="flex gap-[60px] items-start shrink-0">
+        <Frame146 />
+        <Frame148 />
+      </div>
       <Frame150 />
     </div>
   );
